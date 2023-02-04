@@ -1,0 +1,27 @@
+.productsContainer {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.catalogue {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  min-height: 500px;
+  background-color: whitesmoke;
+}
+
+.loaderImg {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (width <= 767px) {
+  .catalogue {
+    width: 100%;
+  }
+}

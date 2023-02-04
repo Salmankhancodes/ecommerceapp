@@ -1,0 +1,36 @@
+.productCard {
+  padding-top: 10px;
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+  width: 30%;
+  height: 300px;
+}
+.productTitle {
+  height: 45px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.productPrice {
+  font-weight: 400;
+  color: orangered;
+}
+@media screen and (width <= 425px) {
+  .productCard {
+    width: 100%;
+  }
+  .productTitle {
+    font-size: 13px;
+    font-weight: 600;
+  }
+}
+@media screen and (width>425px) and (width <769px) {
+  .productCard {
+    width: 40%;
+    margin: 5px;
+  }
+  .productTitle {
+    font-size: 12px;
+    font-weight: 700;
+  }
+}

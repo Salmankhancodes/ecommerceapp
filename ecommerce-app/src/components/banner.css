@@ -1,0 +1,33 @@
+.bannerContainer {
+  width: 100%;
+  background-color: lavenderblush;
+  background-image: url(./images/Banner.jpg);
+  background-size: 100% 20rem;
+  background-repeat: no-repeat;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.categoryBox {
+  height: 2rem;
+  border-radius: 10px;
+  min-width: 6rem;
+}
+
+.searchBox {
+  height: 1.5rem;
+  width: 20rem;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (width <= 767px) {
+  .bannerContainer {
+    flex-direction: column;
+  }
+  .searchBox {
+    margin-top: 10px;
+    width: 80%;
+  }
+}
